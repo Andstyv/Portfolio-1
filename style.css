@@ -23,6 +23,7 @@ h3 {
   border-radius: 20px;
   padding: 0px;
   margin-top: 25px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.315);
 }
 .project-title {
   background-color: #c3f0da;
