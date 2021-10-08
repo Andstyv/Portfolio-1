@@ -11,9 +11,15 @@ h3 {
   max-width: 1800px;
   margin: 0 auto;
 }
+.logo-img {
+  width: 145px;
+  height: 145px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
 .main-title {
   text-align: center;
-  margin-top: 100px;
   margin-bottom: 100px;
   font-size: 48px;
 }
@@ -34,6 +40,9 @@ h3 {
 
 .container-content {
   padding: 10px;
+}
+.main-ul {
+  line-height: 2em;
 }
 footer {
   text-align: center;
