@@ -14,7 +14,7 @@
   </head>
   <body class="body">
     <div class="logo">
-     <img src="/AS_logo.jpg" alt="Website Logo" class="logo-img"/>
+      <img src="/AS_logo.jpg" alt="Website Logo" class="logo-img" />
     </div>
     <h1 class="main-title">Portfolio 1 Website</h1>
     <div class="main-grid">
@@ -24,65 +24,80 @@
           <a href="https://github.com/Andstyv/Semester-Project-updated">Link to GitHub repository</a>
           <h3>What was changed</h3>
           <ul class="main-ul">
-            <li>Navigation bar max width</li>
+            <li>Navigation bar max-width</li>
             <li>Opening hours display</li>
             <li>Hamburger menu on smaller screens</li>
-            <li>Number of navigation bars needed</li>
+            <li>The number of navigation bars needed</li>
             <li>The styling of repeatable elements</li>
-            <li>Form validation on contact page</li>
-            <li>One of the main element colours</li>
+            <li>Form validation on the contact page</li>
+            <li>One of the primary element colours</li>
             <li>Layout of the footer</li>
             <li>Newsletter subscription validation</li>
           </ul>
           <h3>How I changed it</h3>
-            <p>The infinitely wide navigation bar was fixed by adding a max width to it.</p> <p>
-              To change the opening hours based on what day of the week it is, a JS function that shows the day of the week as a
-              number from 1-7, connects its results against an array containing the opening hours for each day.
-            </p> <p>
-              The current hamburger menu in the navigation was discarded, and replaced by a new one
-              built from scratch with JS. The new one contains a set of elements that is shown or hidden on click, by using an event listener in JS.
-            </p> <p>
-              Originally, the site had two different navigation
-              bars that would be displayed according to the screen size of the viewer. Instead of this, I created a new flexible navigation bar that suits all screen sizes by changing its appearance
-              based on the screen size. This was done utilizing flex-box and media queries.
-            </p> <p>
-              Many of the site's elements had a second class added to them to minimize the number of lines of code needed to
-              style them.
-            </p> <p>
-              At the site's contact page, a form validation was created with JS. This validation checks the value of the inputs up against some predefined rules, and only activates the
-              "Send" button for the user if all conditions are met.
-            </p> <p>
-              A portion of the site's appearance was also redone by changing the red colour used on different objects to a lighter and more neutral
-              one. Lastly, the footer section of the site was redone by changing it from a three column flexbox to a two plus two grid that better suited all screen sizes.
-            </p>
-            <p>The newsletter subscription input field in the footer was upgradeded with a JS validation function that checks for input, and if the input meets certain requirements.</p>
+          <p>The infinitely wide navigation bar was fixed by adding a max-width to it.</p>
+          <p>
+            To change the opening hours based on the day of the week, a JS function that shows the day of the week as a number from 1-7 connects its results against an array containing the opening
+            hours for each day.
+          </p>
+          <p>
+            The current hamburger menu in the navigation was discarded and replaced by a new one built from scratch with JS. The new one contains a set of elements that is shown or hidden on click by
+            using an event listener in JS.
+          </p>
+          <p>
+            Originally, the site had two different navigation bars that would be displayed according to the viewer's screen size. Instead, I created a new flexible navigation bar that suits all screen
+            sizes by changing its appearance based on the screen size. This was done utilizing flex-box and media queries.
+          </p>
+          <p>Many of the site's elements had a second class added to them to minimize the number of lines of code needed to style them.</p>
+          <p>
+            On the site's contact page, a form validation was created with JS. This validation checks the value of the inputs up against some predefined rules and only activates the "Send" button for
+            the user if all conditions are met.
+          </p>
+          <p>
+            A portion of the site's appearance was also redone by changing the red colour used on different objects to a lighter and more neutral one. The site's footer section was redone by changing
+            it from a three column flexbox to a two plus two grid that better suited all screen sizes.
+          </p>
+          <p>The newsletter subscription input field in the footer was upgraded with a JS validation function that checks for input and if the input meets certain requirements.</p>
           <h3>Why I did it that way</h3>
           <p>
-            One of the first things I noticed when opening the website, was that the navigation bar would stretch infinitely accross the width of the screen. This happened due to a lack of max-width
-            styling, which was added. This was done to optimize the site's readability and responsiveness in large screen sizes.</p> 
-            <p>The new function for showing opening hours of the museum was added to
-            create a more dynamic website that would show actual relevant information, rather than just hardcoded text. As a result of this, the opening hours could also easily be changed in the
-            array, and displayed on the site immidiately.</p><p> Further on, the hamburger menu was redone because of the need for a more flexible and functional one, in contrast to the old hardcoded one.</p><p>
-            One of the main reasons for changing from two different navigation bars to a single flexible one was the site's accessability. One could imagine that an assistive program like a screen
+            One of the first things I noticed when opening the website was that the navigation bar would stretch infinitely across the width of the screen. This happened due to a lack of max-width
+            styling, which was added. This was done to optimize the site's readability and responsiveness in large screen sizes.
+          </p>
+          <p>
+            The new function for showing opening hours of the museum was added to create a more dynamic website that would show actual relevant information, rather than just hardcoded text. As a
+            result, the opening hours could also easily be changed in the array, and displayed on the site immediately.
+          </p>
+          <p>Further on, the hamburger menu was redone because of the need for a more flexible and functional one, unlike the old hardcoded one.</p>
+          <p>
+            One of the main reasons for changing from two different navigation bars to a single flexible one was the site's accessibility. One could imagine that an assistive program like a screen
             reader could interpret some difficult to understand information with the site having two navigations rather than just one, as it should have. This would also reduce the amount of both code
-            and styling needed to style two navigation bars. </p><p>Another change that was done to reduce the amount of code in the project was adding a second class to many of the repeatable elements that
-            would be styled almost exactly the same. By adding a second class, one of the classes would function as a main class and contain most of the styling, while the element specific styling
-            would be done in the other class.</p><p> An additional styling feature that was changed was the colour of some of the elements of the page. These elements were originally coloured in a bright
-            red/pink colour, that ultimately was changed to a more subtle and neutral tone, as the original colour demanded a little too much attention from the user's eyes. </p><p>At last, the main reason
-            for redoing the footer completely was the lack of flexibility accross all screen sizes. At low screen sizes, the footer would squeeze all its elements very tightly together and decrease
-            the readability while increasing the chance of a user missclick. Therefore, the now footer was designed to utilize more space in the height dimension rather than being too wide.</p>
-          <p>At last, the newsletter input validation was created to give the user feedback of whether or not their E-mail was inputted correctly, and if the subscription was successfull.</p>
+            and styling needed to style two navigation bars.
+          </p>
+          <p>
+            Another change that was done to reduce the amount of code in the project was adding a second class to many of the repeatable elements that would be styled almost exactly the same. By
+            adding a second class, one of the classes would function as the main class and contain most of the styling, while the element-specific styling would be done in the other class.
+          </p>
+          <p>
+            An additional styling feature that was changed was the colour of some of the page elements. These elements were originally coloured in a bright red/pink colour, which ultimately was
+            changed to a more subtle and neutral tone, as the original colour demanded a little too much attention from the user's eyes.
+          </p>
+          <p>
+            At last, the main reason for redoing the footer completely was the lack of flexibility across all screen sizes. At small screen sizes, the footer would squeeze all its elements very
+            tightly together and decrease the readability while increasing the chance of a user miss click. Therefore, the new footer was designed to utilize more space in the height dimension rather
+            than being too wide.
+          </p>
+          <p>At last, the newsletter input validation was created to give the user feedback of whether or not their E-mail was inputted correctly and if the subscription was successful.</p>
         </div>
       </div>
       <div class="grid-container cont2">
-        <h2 class="project-title">Project 2 - Cross-course Project</h2>
+        <h2 class="project-title">Project 2 - Cross-Course Project</h2>
         <div class="container-content">
           <a href="https://github.com/Andstyv/Cross-course-Project">Link to GitHub repository</a>
           <h3>What was changed</h3>
           <ul class="main-ul">
             <li>Shopping cart storage across pages</li>
             <li>Checks towards the local storage before adding products</li>
-            <li>Two static navigation bars reduced to one flexible</li>
+            <li>Two static navigation bars are reduced to one flexible</li>
             <li>Product categories filter</li>
             <li>Product search functionality</li>
             <li>Reduced file size and loading times for product images</li>
@@ -91,32 +106,36 @@
           <h3>How I changed it</h3>
           <p>
             The shopping carts storage issues were corrected by implementing a JS function that checks if an array exists in the user's local storage in their web browser. If not, an empty array is
-            created, and eventually filled up if the user adds any products to it. This was in contrast to the old shopping cart, where a new array of products would be created every time a user would
-            enter a new specific product. </p>
-            <p>The search and filter functionalities were added by creating a function that sends a new API call with the information from the user inputted fields as
-            arguments. For the category selection, each product was connected to a category in the WordPress database, so that the API call could simply use this as an argument.</p> 
-            <p>By running the product
-            images through several online image optimizers (as TinyPNG), the file size could be reduced by almost 80 % compared to the original </p>
-          <p>To have the items in the cart removed once the user has completed the checkout form and confirmed their order, an event listener was added that empties the array in the local storage containing the products.</p>
+            created and eventually filled up if the user adds any products. This functionality was in contrast to the old shopping cart, where a new array of products would be created every time a
+            user would enter a new specific product.
+          </p>
+          <p>
+            The search and filter functionalities were added by creating a function that sends a new API call with the information from the user inputted fields as arguments. For the category
+            selection, each product was connected to a category in the WordPress database so that the API call could simply use this as an argument.
+          </p>
+          <p>By running the product images through several online image optimizers (as TinyPNG), the file size was reduced by almost 80 % compared to the original</p>
+          <p>
+            To remove the items in the cart once the user has completed the checkout form and confirmed their order, an event listener empties the array in the local storage containing the products.
+          </p>
           <h3>Why I did it that way</h3>
-            <p>
-              One of the main flaws of the website was that the shopping cart would not store products accross the different pages of the site. This was due to the local storage array being reset every
-              time a user would choose a different product than the initial one to add to the cart.
-            </p> <p>
-              A function was created that runs every time a new product site is visited, and if a previous storage
-              array exists, new products would be added to this one, rather than creating a empty new one. If it's the first visit for a user, an empty array would be created and eventually filled if
-              the user adds an item to their cart.
-            </p> <p>
-              To further optimize the user-friendliness of the site, options to filter the site's products were created. Along with this, searching functionaly was
-              also implemented. to make the website more dynamic and scalable.
-            </p> <p>
-              I chose to assign the different products to categories in the WordPress database to make it simpler to update, change or
-              remove both categories and their connected products.
-            </p> <p>
-              The reason for putting work into reducing the file size of the product images was that with the amount of reduction that was managed,
-              the site's loading speed was drastically increased, but with almost withouth compromising on image quality. A feature I think would be greatly appreciated by end users.
-            </p>
-            <p>The removal of the products in the cart once the user confirms their order was implemented to give the user a visual confirmation that the items has indeed been ordered. Having products still in the cart after checkout could be a course of confusion for the users.</p>
+          <p>
+            One of the main flaws of the website was that the shopping cart would not store products across the different pages of the site. This was due to the local storage array being reset every
+            time a user would choose an other product than the initial one to add to the cart.
+          </p>
+          <p>
+            A function was created that runs every time a new product site is visited, and if a previous storage array exists, new products would be added to this one, rather than creating an empty
+            new one. If it's the first visit for a user, an empty array would be created and eventually filled if they add an item to their cart.
+          </p>
+          <p>To further optimize the user-friendliness of the site, options to filter the site's products were created. Along with this, searching functionality was also implemented to the site.</p>
+          <p>I chose to assign the different products to categories in the WordPress database to make it simpler to update, change or remove both categories and their connected products.</p>
+          <p>
+            The reason for putting work into reducing the file size of the product images was that with the amount of reduction in file size that was managed, the site's loading speed was drastically
+            increased, but almost withouth compromising on image quality. A feature I think would be greatly appreciated by end-users.
+          </p>
+          <p>
+            The removal of the products in the cart once the user confirms their order was implemented gives the user a visual confirmation that the items have indeed been ordered. Having products
+            still in the cart after checkout could be a course of confusion for the users.
+          </p>
         </div>
       </div>
       <div class="grid-container cont3">
@@ -127,19 +146,33 @@
           <ul class="main-ul">
             <li>Form validation for newsletter subscription</li>
             <li>Missing labels for some input fields</li>
-            <li>Corrected alt text for header image</li>
+            <li>Corrected alt text for a header image</li>
             <li>New loading animation when fetching blog posts</li>
           </ul>
           <h3>How I changed it</h3>
-           <p>The form validation for the newsletter subscription input was created the same way as the contact form validations. </p>
-            <p>A javascript functions first checks if any input exists at all, and then if the input (e-mail) corresponds with a given set of rules (must include a @ and so on). </p>
-            <p>To create a connected label to the input form, the div container containing text informartion about what kind of input field it is was simply changed to a label element that is then wrapped around the input field.</p>
-            <p>The about image alt text was changed to a more informative and descriptive one. A new loading animations spinner was added by creating a circular div element with a part of its border being another colour than the rest. By using CSS animation properties this border was then animated to spin around until the content has finished loading, which then removes the loader.</p>
+          <p>The form validation for the newsletter subscription input was created the same way as the contact form validations.</p>
+          <p>A javascript function first checks if any input exists, and then if the input (e-mail) corresponds with a given set of rules (must include a @ and so on).</p>
+          <p>
+            To create a connected label to the input form, the div container containing text information about what kind of input field it is was simply changed to a label element. This element is
+            then wrapped around the input field.
+          </p>
+          <p>
+            The about image alt text was changed to a more informative and descriptive one. A new loading animations spinner was added by creating a circular div element with a part of its border
+            being another colour than the rest. By using CSS animation properties, this border was then animated to spin around until the content was finished loading, removing the loader.
+          </p>
           <h3>Why I did it that way</h3>
           <p>
-            <p>The form validation was added to give the user feedback when trying to submit a non-valid e-mail address, or when trying to submit withouth inputting anything. This, together with the success message that appears if the e-mail is successfully sent, gives the user a confirmation of wether or not their request has been submitted.</p>
-            <p>Both the added labels for the newsletter input field and the new alt text for the header image in the "about" section were added to improve the site's accessability for every user, and especially for those who use assistive technologies as screen readers or similarly.</p>
-            <p>The new loading animation that appears when the API call goes out and items are fetched was made to supply the user of the page with some feedback of wether something is actually happening in the background when they click the "blog" section of the site or not. By adding this loader, the site indicates to their user that their request is being handled, and that they can expect an output shortly.</p>
+            The form validation was added to give the user feedback when trying to submit a non-valid e-mail address, or when trying to submit without inputting anything. This, together with the
+            success message that appears if the e-mail is successfully sent, gives the user a confirmation of whether their request has been submitted.
+          </p>
+          <p>
+            The added labels for the newsletter input field and the new alt text for the header image in the "about" section were added to improve the site's accessibility for every user, especially
+            for those who use assistive technologies like screen readers or similarly.
+          </p>
+          <p>
+            The new loading animation that appears when the API call goes out and items are fetched was made to supply the user of the page with some feedback on whether something is happening in the
+            background when they click the "blog" section of the site or not. By adding this loader, the site indicates to their user that their request is being handled and that they can expect an
+            output shortly.
           </p>
         </div>
       </div>
