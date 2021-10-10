@@ -34,6 +34,7 @@
             <li>Form validation on the contact page</li>
             <li>One of the primary element colours</li>
             <li>Layout of the footer</li>
+            <li>Fetching of events from API</li>
             <li>Newsletter subscription validation</li>
           </ul>
           <h3>How I changed it</h3>
@@ -57,6 +58,10 @@
           </p>
           <p>A portion of the site's appearance was also redone by changing the red colour used on different objects to a lighter and more neutral one.</p>
           <p>The site's footer section was redone by changing it from a three column flexbox to a two plus two grid that better suited all screen sizes.</p>
+          <p>
+            The events section was changed by connecting it to a WordPress backend serving as a database for the museum's events. This way, instead of having the events hardcoded in the HTML, a JS
+            function calls the API and fetches the most recent events from WP.
+          </p>
           <p>The newsletter subscription input field in the footer was upgraded with a JS validation function that checks for input and if the input meets certain requirements.</p>
           <h3>Why I did it that way</h3>
           <p>
@@ -85,6 +90,11 @@
             The main reason for redoing the footer completely was the lack of flexibility across all screen sizes. At small screen sizes, the footer would squeeze all its elements very tightly
             together and decrease the readability while increasing the chance of a user miss click. Therefore, the new footer was designed to utilize more space in the height dimension rather than
             being too wide.
+          </p>
+          <p>
+            By converting the events section from a static field to a dynamic one that fetches the event via an API, it gives the creator of the site the ability to have the events created, stored and
+            updated in a WP database. This makes sure that the events shown on the site are updated with the latest relevant information, and that new events could be created effortlessly in the
+            background and shown directly on the site.
           </p>
           <p>At last, the newsletter input validation was created to give the user feedback of whether or not their E-mail was inputted correctly and if the subscription was successful.</p>
         </div>
